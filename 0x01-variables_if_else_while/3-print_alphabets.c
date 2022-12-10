@@ -2,11 +2,10 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (success)
+ * Return: 0 (Always)
  */
 int main(void)
 {
-
 	char c;
 
 	char d;
@@ -15,11 +14,11 @@ int main(void)
 	d = 'A';
 	while
 		(c <= 'z') {
-			putchar(c);
-			c++;
+		       putchar(c);
+		       c++;
 		}
 	while
-		(d <= 'z') {
+		(d <= 'Z') {
 			putchar(d);
 			d++;
 		}
