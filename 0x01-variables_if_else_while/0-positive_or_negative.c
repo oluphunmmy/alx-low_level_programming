@@ -5,13 +5,11 @@
 /**
  * main - print a random num
  *
- * Return:0
+ * Return: 0
  */
 
 int main(void)
-
 {
-
 		int n;
 
 			srand(time(0));
@@ -24,7 +22,6 @@ int main(void)
 					printf("%d is negative\n", n);
 				else
 					printf("%d is zero\n", n);
-
 					return (0);
 
 }
