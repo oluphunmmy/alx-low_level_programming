@@ -3,28 +3,27 @@
 #include "main.h"
 /**
  * main - prints the largest of 3 integers
- * Return: 0
+ * @a: first integer
+ * @b: second integer
+ * @c: third integer
+ * Return: largest number
  */
-
-int main(void)
+largest_number(int a, int b, int c)
 {
-	int a, b, c;
+	int largest;
 
-	if (a > b)
+	if (a > b && a > c)
 	{
-		if (b > c)
-			largest = a;
-		else if (a > c)
-			largest = a;
-		else
-			largest = c;
+		largest = a;
+	}
+	else if (b > c)
+	{
+		largest = b;
 	}
 	else
 	{
-		if (b < c)
-			largest = c;
-		else
-			largest = b;
+		largest = c;
 	}
+
 	return (largest);
 }
