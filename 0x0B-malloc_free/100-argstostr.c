@@ -1,12 +1,13 @@
-#include <stdlib.h>
+#include<stdlib.h>
 #include "main.h"
-
 /**
- * *argstostr - concatenates all the arguments of the program
+ * *argstostr - a function that concatenates
+ * all the arguments
  * @ac: number of arguments
  * @av: array of arguments
  *
- * Return: Pointer to the new string (Success), NULL (Error)
+ * Return: a pointer to a new string
+ * or NULL if it false
  */
 char *argstostr(int ac, char **av)
 {
@@ -21,7 +22,6 @@ char *argstostr(int ac, char **av)
 		for (j = 0; av[i][j] != '\0'; j++)
 			len++;
 		len++;
-
 	}
 
 	str = malloc(sizeof(char) * (len + 1));
@@ -39,6 +39,5 @@ char *argstostr(int ac, char **av)
 		str[k] = '\n';
 		k++;
 	}
-
 	return (str);
 }
