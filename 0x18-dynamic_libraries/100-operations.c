@@ -1,26 +1,50 @@
-#include <stdio.h>
-int add(int a,int b)
+/**
+ * add - addition
+ * @a: number
+ * @b: nuber
+ * Return: result
+ */
+int add(int a, int b)
 {
-	return a + b;
+      return (a + b);
 }
-
-int sub(int a,int b)
+/**
+ * sub - addition
+ * @a: number
+ * @b: nuber
+ * Return: result
+ */
+int sub(int a, int b)
 {
-        return a - b;
+      return (a - b);
 }
-
-int mul(int a,int b)
+/**
+ * mul - addition
+ * @a: number
+ * @b: nuber
+ * Return: result
+ */
+int mul(int a, int b)
 {
-        return a * b;
+      return (a * b);
 }
-
-
-int div(int a,int b)
+/**
+ * div - addition
+ * @a: number
+ * @b: nuber
+ * Return: result
+ */
+int div(int a, int b)
 {
-        return a / b;
+      return (a / b);
 }
-
-int mod(int a,int b)
+/**
+ * mod - addition
+ * @a: number
+ * @b: nuber
+ * Return: result
+ */
+int mod(int a, int b)
 {
-        return a % b;
+      return (a % b);
 }
